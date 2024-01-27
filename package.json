@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Web application for selling Agricultural Products",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +24,12 @@
   ],
   "author": "Nukala Divakar Sai",
   "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6"
+  },
   "bugs": {
     "url": "https://github.com/DivakarSai/subZ/issues"
   },
